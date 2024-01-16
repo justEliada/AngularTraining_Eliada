@@ -9,6 +9,7 @@ import { ButtonComponent } from './components/button/button.component';
 import { InfoComponent } from './pages/info/info.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { MatButtonModule } from '@angular/material/button';
+import { BottomNavComponent } from './components/bottom-nav/bottom-nav.component';
 
 @NgModule({
   declarations: [
@@ -17,6 +18,7 @@ import { MatButtonModule } from '@angular/material/button';
     TopNavComponent,
     ButtonComponent,
     InfoComponent,
+    BottomNavComponent,
   ],
   imports: [
     BrowserModule,
