@@ -6,11 +6,12 @@ import { Router } from '@angular/router';
   templateUrl: './button.component.html',
   styleUrls: ['./button.component.scss']
 })
+
 export class ButtonComponent {
   constructor(private router: Router) {}
 
   navigateToInfo() {
-    this.router.navigate(['/pages/info']);
+    this.router.navigate(['/info']);
   }
 
 }
